@@ -104,7 +104,7 @@
       >
         <div class="container mob-menu-container">
           <button
-            class="mob-menu-close"
+            class="modal-close-btn"
             data-menu-close
           >
             <svg
@@ -223,6 +223,7 @@
           <button
             class="effective-btn"
             type="button"
+            data-modal-open
           >
             Order Service
           </button>
@@ -967,7 +968,6 @@
               id="footer-user-email"
               placeholder="E-mail"
           /></label>
-
           <button
             class="footer-send-btn"
             type="submit"
@@ -985,9 +985,13 @@
       </div>
     </footer>
 
-    <div class="modal-overlay">
+    <div
+      class="modal-overlay"
+      data-modal
+    >
       <div class="modal">
         <button
+          data-modal-close
           class="modal-close-btn"
           type="button"
         >
@@ -1119,5 +1123,6 @@
       </div>
     </div>
     <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
