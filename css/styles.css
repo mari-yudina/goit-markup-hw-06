@@ -342,6 +342,18 @@ address {
   background-position: center;
   background-size: cover;
 }
+
+@media (min-resolution: 2x) {
+  .effective {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-mob-min@2x.jpg); /* Зображення високої роздільної здатності */
+    background-size: cover;
+  }
+}
+
 .effective-container {
 }
 
@@ -388,6 +400,17 @@ address {
       url(../images/hero-tab-min.jpg);
   }
 
+  @media (min-resolution: 2x) {
+    .effective {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-tab-min@2x.jpg); /* Зображення високої роздільної здатності */
+      background-size: cover;
+    }
+  }
+
   .effective-title {
     font-weight: 700;
     font-size: 56px;
@@ -413,6 +436,18 @@ address {
     background-position: center;
     background-size: cover;
   }
+
+  @media (min-resolution: 2x) {
+    .effective {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-lap-min@2x.jpg); /* Зображення високої роздільної здатності */
+      background-size: cover;
+    }
+  }
+
   .effective-container {
   }
 
@@ -779,7 +814,7 @@ address {
 }
 
 .footer-logo {
-  margin-left: 86px;
+  text-align: center;
   margin-bottom: 16px;
 }
 
@@ -906,7 +941,7 @@ address {
   }
 
   .footer-logo {
-    margin: 0;
+    text-align: left;
     margin-bottom: 17px;
   }
 
@@ -946,9 +981,6 @@ address {
   .footer-container {
     min-width: 1158px;
     gap: 0;
-    align-items: start;
-
-    margin: 0;
   }
 
   .footer-logo-box {
