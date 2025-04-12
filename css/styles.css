@@ -383,7 +383,7 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-mob-min@2x.jpg); /* Зображення високої роздільної здатності */
+      url(../images/hero-mob@2x-min.jpg); /* Зображення високої роздільної здатності */
     background-size: cover;
   }
 }
@@ -416,7 +416,7 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-tab-min@2x.jpg); /* Зображення високої роздільної здатності */
+      url(../images/hero-tab@2x-min.jpg); /* Зображення високої роздільної здатності */
     background-size: cover;
   }
 }
@@ -454,7 +454,7 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-lap-min@2x.jpg); /* Зображення високої роздільної здатності */
+      url(../images/hero-lap@2x-min.jpg); /* Зображення високої роздільної здатності */
     background-size: cover;
   }
 }
