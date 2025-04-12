@@ -377,17 +377,6 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media (min-resolution: 2x) {
-  .effective {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-mob@2x-min.jpg); /* Зображення високої роздільної здатності */
-    background-size: cover;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .effective {
     max-width: 768px;
@@ -407,17 +396,6 @@ address {
 
     max-width: 496px;
     margin-bottom: 36px;
-  }
-}
-
-@media (min-resolution: 2x) {
-  .effective {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-tab@2x-min.jpg); /* Зображення високої роздільної здатності */
-    background-size: cover;
   }
 }
 
@@ -454,11 +432,29 @@ address {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-lap@2x-min.jpg); /* Зображення високої роздільної здатності */
-    background-size: cover;
+      url(../images/hero-mob@2x-min.jpg);
+  }
+
+  @media screen and (min-width: 768px) {
+    .effective {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-tab@2x-min.jpg);
+    }
+  }
+
+  @media screen and (min-width: 1158px) {
+    .effective {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-lap@2x-min.jpg);
+    }
   }
 }
-
 /* -------------  /SECTION EFFECTIVE  ----------------- */
 
 /* --------------- SECTION ADVSNTAGES------------------- */
